@@ -551,10 +551,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -863,6 +859,14 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1142,6 +1146,10 @@ body {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-1\/2 {
