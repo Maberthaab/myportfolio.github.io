@@ -1,21 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ['portfolio.html'],
   theme: {
-    container :{
+    container : {
       center: true,
-      padding : '16 px',
+      padding : '16px',
     },
     extend: {
       colors: {
         primary:'#e11d48',
         dark: '#0f172a',
-        secondary:'#64748b'
+        secondary:'#64748b',
       },
       screens: {
-        '2xl' :'1320px'
+        '2xl' :'1320px',
       },
-    },
+    },  
   },
   plugins: [],
-}
+};
